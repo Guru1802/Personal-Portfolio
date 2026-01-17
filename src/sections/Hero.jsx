@@ -61,7 +61,7 @@ export const Hero = () => {
                     </div>
                     {/*CTAs*/}
                     <div className = "flex flex-wrap gap-4 animate-fade-in animation-delay-300">
-                      <a href="/Guru_Resume.pdf"
+                      <a href="/Guru_Resume2.pdf"
                          target="_blank"
                          rel="noopener noreferrer">
                       <AnimatedBorderButton>
