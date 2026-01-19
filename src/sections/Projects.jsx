@@ -7,13 +7,15 @@ const projects = [
         image: "/projects/patriot_parker.png",
         tags: ["Java", "Javascript", "HTML/CSS", "SQL"],
         github: "https://github.com/Guru1802/Patriot-Parker",
+        live: "https://github.com/Guru1802/Patriot-Parker"
     },
     {
         title: "SayHi",
         description: "A full-stack web application that enables real-time communication between users. The platform supports instant messaging, user presence, and typing indicators, providing a responsive and interactive chat experience. Built with a focus on reliability, scalability, and clean system design.", 
         image: "/projects/sayhi.png",
         tags: ["React", "Tailwind CSS", "Node.js", "Express", "MongoDB"],
-        github: "https://github.com/Guru1802/mern-chat-app",
+        github: "https://github.com/Guru1802/SayHi",
+        live: "https://sayhi-ej3k.onrender.com"
     },
 
     
@@ -57,7 +59,7 @@ export const Projects = () => {
                             <div className = "p-6 space-y-4">
                                 <div className = "flex items-start justify-between">
                                     <h3 className = "text-xl font-semibold group-hover:text-primary transition-colors">{project.title}</h3>
-                                    <a href = {project.github} target="_blank" rel="noopener noreferrer">
+                                    <a href = {project.live} target="_blank" rel="noopener noreferrer">
                                     <ArrowUpRight className = "w-5 h-5 text-muted-foreground group-hover:text-primary group-hover:translate-x-1 group-hover:translate-y-1 transition-all"/>
                                     </a>
                                 </div>
